@@ -115,7 +115,10 @@ WITH shifts AS (
     
     FROM 
         hours_worked_week_cte
-
+    WHERE 
+        start_datetime <= CURRENT_TIMESTAMP()
+    AND 
+        end_datetime <= CURRENT_TIMESTAMP()
 )
 
 SELECT * FROM final_cte
