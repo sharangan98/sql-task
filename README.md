@@ -1,1 +1,3 @@
-# SQL task for the BI Analyst position using (BigQuery + dbt syntax)
+# SQL task for the BI Analyst
+
+I have written the query using a BigQuery + dbt style syntax
